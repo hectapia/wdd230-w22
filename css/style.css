@@ -5,11 +5,25 @@ body {
     font-size: 1.1em;
     margin: auto;
 }
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 header, footer {
+    display: flex;
     width: 200;
-    background-color: darkred;
+    background-color: blue;
     padding: 5px;
     border-radius: 5px;
     margin: auto;
     align-items: center;
+}
+img {
+    padding: 5px;
+    width: 150px;
 }
