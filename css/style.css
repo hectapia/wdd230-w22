@@ -1,0 +1,15 @@
+body {
+    display: block;
+    background-color: white;
+    font-family: "Arial", serif, sans-serif;
+    font-size: 1.1em;
+    margin: auto;
+}
+header, footer {
+    width: 200;
+    background-color: darkred;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+}
