@@ -4,24 +4,35 @@ body {
     font-family: "Arial", serif, sans-serif;
     font-size: 1.1em;
     margin: auto;
+    width: 500px;
 }
 h2 {
     display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
-header, footer {
+header {
     display: flex;
-    width: 200;
+
+}
+footer {
+  
+}
+.shadowbox {
+    color: white;
     background-color: blue;
-    padding: 5px;
+    padding: 15px;
     border-radius: 5px;
     margin: auto;
     align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);  
+}
+
+div, p {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
 }
 img {
     padding: 5px;
