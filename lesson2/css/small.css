@@ -1,0 +1,10 @@
+
+ @media only screen and (max-width: 25.5em) { 
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        background-color: lightblue;
+    }
+ }
