@@ -1,0 +1,104 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+/* * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } */
+
+body {
+	font-size: 16px;
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    margin: 2vw .2rem 2vw  .2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-rows: 40px 200px 80px;
+}
+.banner img{
+    opacity: 1;
+    width: 100%;
+    height: 200px;
+}
+.logo img{
+    height: 190px;
+    background-color: #fff;
+    opacity: .8;
+    margin: .2rem;
+}
+section {
+    background-color: #fff;
+    opacity: .8;
+}
+.social img{
+    width: 30px;
+}
+
+.header-div-01{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.header-div-02{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.header-div-03{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 2vmin;
+}
+.header-div-04{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+div.header-div-05{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+
+p { margin: 0 2vw;}
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+nav {
+    background-color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block; 
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
