@@ -7,13 +7,13 @@
 body {
 	font-size: 16px;
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    margin: 2vw .2rem 2vw  .2rem;
+    margin: 1vw .2rem 1vw  .2rem;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    gap: 2px;
     grid-template-rows: 40px 200px 80px;
 }
 .banner img{
@@ -28,11 +28,14 @@ body {
     margin: .2rem;
 }
 section {
-    background-color: #fff;
-    opacity: .8;
+    
+   
+    color: white;
+    text-shadow: 2px 2px 8px #000000;;
 }
 .social img{
     width: 30px;
+    padding-left: 0.3rem;
 }
 
 .header-div-01{
@@ -46,12 +49,16 @@ section {
 .header-div-03{
     grid-column: 2/3;
     grid-row: 2/3;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 .header-div-04{
     grid-column: 1/3;
     grid-row: 1/2;
     background-color: #184E77;
+    color: #fff;
+    padding-right: .5rem;
+    padding-top: .3rem;
+    text-align: right;
 }
 div.header-div-05{
     grid-column: 1/3;
