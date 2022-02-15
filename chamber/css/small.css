@@ -79,13 +79,13 @@ h2 {
 p { margin: 0 2vw;}
 nav button {
     margin: .2rem 2vw;
-    background: transparent;
+    background: #184E77; 
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: #fff;
 }
 nav {
-    background-color: #fff;
+    background-color: #184E77;
 }
 nav ul {
     list-style-type: none;
@@ -97,13 +97,13 @@ nav ul li a {
     display: block; 
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: #fff;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    color: #FFFF3F;
 }
 
 nav ul li a:hover {
