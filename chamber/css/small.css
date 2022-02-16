@@ -30,11 +30,11 @@ body {
     padding-left: 0.3rem;
 }
 
-.header-div-01{
+.header-logo{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.header-div-02 {
+.header-site-name {
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 0;
@@ -74,8 +74,6 @@ h2 {
 }
 
 
-
-
 p { margin: 0 2vw;}
 nav button {
     margin: .2rem 2vw;
@@ -89,8 +87,8 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: px;
 }
 
 nav ul li a {
@@ -111,7 +109,9 @@ nav ul li a:hover {
 }
 
 nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul.open {
+    display: block;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -128,3 +128,50 @@ footer {
 	padding: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+
+.wrapper02 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-rows: repeat(6,auto);
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px;
+}
+.d {
+    background-color: #fff;
+    border: 1px solid #333;
+}
+.hero {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.event {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.weather {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.news {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+ 
+    grid-row: 5/6;
+}
+.spotlight3 {
+    display: none;
+}
+
+.join {
+    grid-column: 1fr;
+    grid-row: 6/7;
+}    
+
