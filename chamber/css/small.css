@@ -42,11 +42,11 @@ a > img{
 h1{
     margin-top: 16px;
     margin-bottom: 0px;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 h2 {
     margin-top: 0px;
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 
 .navigation{
@@ -129,7 +129,7 @@ nav ul.open {
   
   
   
-  .mainWrapper {
+  .mainContainer {
     position: relative;
 	width: 90%;
 	max-width: 940px;
@@ -199,11 +199,25 @@ nav ul.open {
   }
   .spotlights > div {
 	  border: 1px solid white;
+      color: black;
 	}
-
-
-
-.spot-3 {display: none;}
+    .spot-1 > h3{
+        background-color: #bed;
+        margin: 0px;  
+        padding: 5px;
+    }
+    .spot-1 > p{
+        color: #fff;
+    }
+    .spot-2 > h3{
+        background-color: #bed;
+        margin: 0px;  
+        padding: 5px;
+    }
+    .spot-2 > p{
+        color: #fff;
+    }
+    .spot-3 {display: none;}
 
   a.hero-button, a.join-button:link {
 	border: 1px solid #ccc;

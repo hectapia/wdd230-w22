@@ -54,4 +54,13 @@
        grid-column: 2 / 4;
        grid-row: 3 / 4;
      }  
+
+     .spot-3 > h3{
+        background-color: #bed;
+        margin: 0px;  
+        padding: 5px;
+    }
+    .spot-3 > p{
+        color: #fff;
+    }
  }
